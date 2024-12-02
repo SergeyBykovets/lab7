@@ -1,0 +1,1 @@
+typeSearchIndex = [{"p":"work7","l":"AddRequestCommand"},{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"work7","l":"Client"},{"p":"work7","l":"Command"},{"p":"work7","l":"DelRequestCommand"},{"p":"work7","l":"Invoker"},{"p":"work7","l":"PriChCommand"},{"p":"work7","l":"Receiver"}];updateSearchResults();

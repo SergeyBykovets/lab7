@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>D:/Навчання/ІПЗ/lab7</OriginalElement>
+  <nodes>
+    <node x="-304.07021517553784" y="172.0186862967156">work7.Client</node>
+    <node x="992.740090600226" y="330.61721404303506">work7.DelRequestCommand</node>
+    <node x="-3.6659116647791734" y="148.0186862967156">work7.Receiver</node>
+    <node x="787.5" y="22.5">work7.Command</node>
+    <node x="357.35503963759925" y="-2.0">work7.Invoker</node>
+    <node x="665.0475651189126" y="330.61721404303506">work7.AddRequestCommand</node>
+    <node x="357.35503963759925" y="330.61721404303506">work7.PriChCommand</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="work7.PriChCommand" target="work7.Receiver" relationship="TO_ONE">
+      <point x="-70.0" y="-44.0" />
+      <point x="427.35503963759925" y="194.0" />
+      <point x="149.0" y="194.0" />
+      <point x="149.0" y="154.0" />
+      <point x="214.58408833522083" y="154.0" />
+      <point x="72.75" y="68.0" />
+    </edge>
+    <edge source="work7.Client" target="work7.AddRequestCommand" relationship="CREATE">
+      <point x="0.0" y="-44.0" />
+      <point x="-222.07021517553784" y="474.0" />
+      <point x="815.0475651189126" y="474.0" />
+      <point x="0.0" y="44.0" />
+    </edge>
+    <edge source="work7.Invoker" target="work7.Command" relationship="TO_MANY">
+      <point x="0.0" y="-56.0" />
+      <point x="474.85503963759925" y="54.0" />
+      <point x="891.75" y="54.0" />
+      <point x="34.75" y="31.5" />
+    </edge>
+    <edge source="work7.AddRequestCommand" target="work7.Receiver" relationship="TO_ONE">
+      <point x="-75.0" y="-44.0" />
+      <point x="740.0475651189126" y="194.0" />
+      <point x="149.0" y="194.0" />
+      <point x="149.0" y="154.0" />
+      <point x="214.58408833522083" y="154.0" />
+      <point x="72.75" y="68.0" />
+    </edge>
+    <edge source="work7.Client" target="work7.Receiver" relationship="CREATE">
+      <point x="0.0" y="-44.0" />
+      <point x="-222.07021517553784" y="216.0186862967156" />
+      <point x="69.08408833522083" y="216.0186862967156" />
+      <point x="-72.75" y="68.0" />
+    </edge>
+    <edge source="work7.AddRequestCommand" target="work7.Command" relationship="REALIZATION">
+      <point x="75.0" y="-44.0" />
+      <point x="890.0475651189126" y="174.0" />
+      <point x="845.8516421291051" y="174.0" />
+      <point x="845.8516421291051" y="114.0" />
+      <point x="845.4397961494897" y="114.0" />
+      <point x="-11.560203850510334" y="33.11613680634197" />
+    </edge>
+    <edge source="work7.DelRequestCommand" target="work7.Command" relationship="REALIZATION">
+      <point x="73.75" y="-44.0" />
+      <point x="1213.990090600226" y="174.0" />
+      <point x="845.8516421291051" y="174.0" />
+      <point x="845.8516421291051" y="114.0" />
+      <point x="845.8294496036233" y="114.0" />
+      <point x="-11.170550396376711" y="33.50579026047559" />
+    </edge>
+    <edge source="work7.Client" target="work7.Invoker" relationship="CREATE">
+      <point x="0.0" y="-44.0" />
+      <point x="-222.07021517553784" y="-52.08080543601352" />
+      <point x="474.85503963759925" y="-52.08080543601352" />
+      <point x="0.0" y="56.0" />
+    </edge>
+    <edge source="work7.PriChCommand" target="work7.Command" relationship="REALIZATION">
+      <point x="70.0" y="-44.0" />
+      <point x="567.3550396375992" y="174.0" />
+      <point x="845.8516421291051" y="174.0" />
+      <point x="845.8516421291051" y="114.0" />
+      <point x="845.4397961494897" y="114.0" />
+      <point x="-11.560203850510334" y="34.285097168742865" />
+    </edge>
+    <edge source="work7.DelRequestCommand" target="work7.Receiver" relationship="TO_ONE">
+      <point x="-73.75" y="-44.0" />
+      <point x="1066.490090600226" y="194.0" />
+      <point x="149.0" y="194.0" />
+      <point x="149.0" y="154.0" />
+      <point x="214.58408833522083" y="154.0" />
+      <point x="72.75" y="68.0" />
+    </edge>
+    <edge source="work7.Client" target="work7.PriChCommand" relationship="CREATE">
+      <point x="0.0" y="-44.0" />
+      <point x="-222.07021517553784" y="474.0" />
+      <point x="497.35503963759925" y="474.0" />
+      <point x="0.0" y="44.0" />
+    </edge>
+    <edge source="work7.Client" target="work7.DelRequestCommand" relationship="CREATE">
+      <point x="0.0" y="-44.0" />
+      <point x="-222.07021517553784" y="474.0" />
+      <point x="1140.240090600226" y="474.0" />
+      <point x="0.0" y="44.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="0.8409523809523816" showDependencies="true" x="568.7805164212906" y="130.94563986409923" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
